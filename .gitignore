@@ -1,0 +1,64 @@
+# Environment variables
+.env
+.env.local
+.env.*.local
+backend/.env
+backend/.env.example
+backend/.env.local
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Project
+datasets/crime_data.csv
+models/*.pkl
+logs/
+*.log
+*.db
+*.sqlite
+backend/data/*.db
+
+# Sensitive Files & Credentials
+backend/firebase-service-account.json
+firebase-service-account.json
+*.pem
+*.key
+*.p12
+credentials.json
+
